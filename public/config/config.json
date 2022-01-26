@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xa656923ed64c9EF24C06eD7f06f48E8FD7b8B4F7",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xa656923ed64c9ef24c06ed7f06f48e8fd7b8b4f7",
+  "CONTRACT_ADDRESS": "0x1AfA851A61F822Aa861a00f0A056Ee3443BF904B",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x1afa851a61f822aa861a00f0a056ee3443bf904b",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.07,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cryptocannibalmalesgen2",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cannibal-gen-2-new",
+  "SHOW_BACKGROUND": false
 }
