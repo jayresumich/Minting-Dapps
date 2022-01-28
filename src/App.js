@@ -415,7 +415,7 @@ function App() {
               //adjusted bottom text bar 2  
             }}
           >
-            - The Minting Process will cut off at 3000 Cannibals Sold -
+            - The Minting Process will cut off at 3000 Cannibals Sold - DO NOT MINT AFTER 3K MAY LOSE GAS
           </s.TextDescription>
         </s.Container>
       </s.Container>
