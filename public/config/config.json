@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x1AfA851A61F822Aa861a00f0A056Ee3443BF904B",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x1afa851a61f822aa861a00f0a056ee3443bf904b",
+  "CONTRACT_ADDRESS": "0x1268E251F2E26fFfaEF6320b3Bad484808e0b147",
+  "SCAN_LINK": "https://etherscan.io/address/0x1268e251f2e26fffaef6320b3bad484808e0b147",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 4
+    "ID": 1
   },
   "NFT_NAME": "Crypto Cannibals V2",
   "SYMBOL": "CNBL",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.07,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/cannibal-gen-2-new",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/crypto-cannibals-v2",
   "SHOW_BACKGROUND": true
 }
