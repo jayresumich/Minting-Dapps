@@ -133,7 +133,7 @@ function App() {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
-    let totalGasLimit = String(gasLimit * mintAmount);
+    let totalGasLimit = String(gasLimit + ((gasLimit*mintAmount)*.2));
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
@@ -171,8 +171,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 3) {
+      newMintAmount = 3;
     }
     setMintAmount(newMintAmount);
   };
@@ -214,18 +214,19 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+           
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={2}
+            flex={.5}
             jc={"center"}
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px solid var(--secondary)",
+              //possible center access pannel
+              border: "20px solid var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -379,11 +380,15 @@ function App() {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
+          <s.Container 
+          //adjusting space between right image and access pannel
+          flex={1} jc={"center"} ai={"center"}>
+            
+          <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
               style={{ transform: "scaleX(-1)" }}
+              //possible double imaage display
             />
           </s.Container>
         </ResponsiveWrapper>
@@ -394,7 +399,7 @@ function App() {
               textAlign: "center",
               color: "var(--primary-text)",
               boxShadow: "0px 5px 11px 2px rgba(0, 0, 0, 0.7)",
-              border: "4px solid var(--primary)",
+              border: "10px solid var(--primary)",
               backgroundColor: "var(--primary)",
             //adjusted bottom text bar 1
             }}
@@ -410,12 +415,12 @@ function App() {
               textAlign: "center",
               color: "var(--primary-text)",
               boxShadow: "0px 5px 11px 2px rgba(0, 0, 0, 0.7)",
-              border: "4px solid var(--primary)",
+              border: "10px solid var(--primary)",
               backgroundColor: "var(--primary)",
               //adjusted bottom text bar 2  
             }}
           >
-            - The Minting Process will cut off at 3000 Cannibals Sold - DO NOT MINT AFTER 3K MAY LOSE GAS
+            - Whitelist price will be .035 ETH (2 mints) and for public will be .05 ETH (3 mints)
           </s.TextDescription>
         </s.Container>
       </s.Container>

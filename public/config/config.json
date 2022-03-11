@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x1268E251F2E26fFfaEF6320b3Bad484808e0b147",
-  "SCAN_LINK": "https://etherscan.io/address/0x1268e251f2e26fffaef6320b3bad484808e0b147",
+  "CONTRACT_ADDRESS": "0x242955ACf8fB0245a3f1B42f9A65C5D0f591d9A9",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x242955ACf8fB0245a3f1B42f9A65C5D0f591d9A9",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 4
   },
-  "NFT_NAME": "Crypto Cannibals V2",
-  "SYMBOL": "CNBL",
-  "MAX_SUPPLY": 3000,
-  "WEI_COST": 70000000000000000,
-  "DISPLAY_COST": 0.07,
+  "NFT_NAME": "Lonely Bones Club",
+  "SYMBOL": "LB",
+  "MAX_SUPPLY": 4444,
+  "WEI_COST": 35000000000000000,
+  "DISPLAY_COST": 0.035,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/crypto-cannibals-v2",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/lonely-bones-club",
   "SHOW_BACKGROUND": true
 }
